@@ -1,0 +1,29 @@
+html,body {
+  font-family: 'Cormorant Garamond', serif;
+  height: 100%;
+}
+
+header {  
+  color: white;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 5vw;
+  white-space: nowrap;  
+}
+p {
+  margin: 0;
+  font-size: 3.5vw;
+}
+#intro{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/images/slippers.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
